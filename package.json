@@ -1,7 +1,23 @@
 {
-  "name": "cruzer",
-  "version": "0.0.1",
+  "name": "Cruzer",
   "private": true,
+  "version": "0.0.1",
+  "description": "Mobile Application for Sai Gon Cruze Club",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dauden/cruzer-app.git"
+  },
+  "keywords": [
+    "Cruzer",
+    "Cruze Club",
+    "Sai Gon Cruze Club"
+  ],
+  "author": "Dau Den ® <anh.nguyen@codingland.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dauden/cruzer-app/issues"
+  },
+  "homepage": "http://codingland.com/Cruzer",
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "bundle-android": "react-native bundle --platform android --dev false --entry-file index.android.js --bundle-output android/app/src/main/assets/index.android.bundle --sourcemap-output android/app/src/main/assets/index.android.map --assets-dest android/app/src/main/res/",
@@ -9,8 +25,11 @@
   },
   "dependencies": {
     "apsl-react-native-button": "^3.0.2",
+    "lodash": "^4.17.4",
     "react": "15.5.4",
-    "react-native": "0.41.2"
+    "react-native": "0.41.2",
+    "react-native-communications": "^2.2.1",
+    "react-native-display": "^1.0.8"
   },
   "devDependencies": {
     "babel-jest": "20.0.0",
