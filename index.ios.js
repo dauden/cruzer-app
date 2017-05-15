@@ -4,14 +4,13 @@
  * @author: "Dau Den ® <anh.nguyen@codingland.com>",
  * @license: "ISC",
  */
-
-import cruzer from 'app';
+import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
   container: {
     paddingTop: 20,
     alignItems: 'center',
     backgroundColor: '#FFFFFF',
-    margin: 30,
+    margin: 15,
     flex: 1
   },
   linkDot: {
@@ -35,13 +34,21 @@ const styles = StyleSheet.create({
     height: 35
   },
   cols2: {
-    flex: 2
+    flex: 2,
+    textAlign: 'left',
+    paddingLeft: 10
   },
   cols: {
     flex: 1, 
     justifyContent: 'space-between',
     flexDirection: 'column',
     textAlign: 'center'
+  },
+  colsLeft: {
+    paddingLeft: 5
+  },
+  tableItemRowExt: {
+    backgroundColor: '#c3c9c3'
   },
   tableItemRow: {
     justifyContent: 'space-between',
@@ -68,7 +75,7 @@ const styles = StyleSheet.create({
   },
   buttonStyle: {
     margin: 5,
-    width: 70,
+    width: 80,
     height: 30,
     borderRadius: 5,
     alignItems: 'center',
@@ -80,4 +87,6 @@ const styles = StyleSheet.create({
   }
 });
 
-AppRegistry.registerComponent('cruzer', () => cruzer);
+global.styles = styles;
+
+import { cruzer } from './app';
