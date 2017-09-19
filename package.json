@@ -2,7 +2,7 @@
   "name": "Cruzer",
   "private": true,
   "version": "0.0.1",
-  "description": "Mobile Application for Sai Gon Cruze Club",
+  "description": "Mobile Application for Sai Gon Cruze Club.",
   "repository": {
     "type": "git",
     "url": "git@github.com:dauden/cruzer-app.git"
